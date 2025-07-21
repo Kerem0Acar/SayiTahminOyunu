@@ -22,7 +22,7 @@ public class Main {
 
              }else{
 
-                 System.out.print("1 ile 10 arasında bir sayı tahmin ediniz: ");
+                 System.out.print("1 ile 100 arasında bir sayı tahmin ediniz: ");
                  int userGuess = scan.nextInt();
                  long lastGuessTime = (System.currentTimeMillis() - startTime)/1000;
                  if(lastGuessTime > 20) {
