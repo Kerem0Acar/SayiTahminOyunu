@@ -27,6 +27,7 @@ public class Main {
                  long lastGuessTime = (System.currentTimeMillis() - startTime)/1000;
                  if(lastGuessTime > 20) {
                      System.out.println("Süreniz bitmiştir!!!");
+                     System.out.println("Asıl değer: "+randomNumber);
                      break;
                  }
                  if(userGuess<1||userGuess>100){
